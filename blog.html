@@ -4,19 +4,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-widht, inital-scale=1" />
+  <link rel="stylesheet" href="css/reset_style.css" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <link rel="stylesheet" href="css/style.css" />
-  <title>EB</title>
+  <title>EB - Studio</title>
 </head>
 
 <body>
   <div class="content">
+    <!-- begining of the content wraper for sticky footer -->
     <header class="no-breadcrumbs">
       <!-- navigation -->
       <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><img src="img/drawing.svg" alt="Main site logo" /></a>
+          <a class="navbar-brand" href="index.html"><img alt="home, website logo" src="img/LOGO.svg" /></i></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,12 +34,14 @@
           <div class="colapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="work.html">WORK</a>
+                <a class="nav-link" href="work.html">WORK</i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="play.html">PLAY</a>
+                <a class="nav-link" href="play.html">PLAY</i></a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="#">TEAM</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</i></a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="blog.html">BLOG</a>
               </li>
@@ -41,80 +52,120 @@
     </header>
 
     <main class="page-content">
-      <!-- image slide -->
-      <div id="slides" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-          <li data-target="#slides" data-slide-to="0" class="active"></li>
-          <li data-target="#slides" data-slide-to="1"></li>
-          <li data-target="#slides" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/get-in-img.png" alt="carousel image" />
-            <div class="carousel-caption">
-              <h1 class="display-2">Hello World</h1>
-              <h3>Complete site</h3>
-              <button type="button" class="btn btn-outline-light btn-lg">
-                READ
-              </button>
-              <button type="button" class="btn btn-primary btn-lg">
-                Go to article
-              </button>
+
+      <!-- Page Content -->
+      <div class="container">
+
+        <div class="row">
+
+          <!-- Blog Entries Column -->
+          <div class="col-md-8">
+
+            <h1 class="my-4 text-center">Welcome to my Blog!</h1>
+
+            <!-- Blog Post -->
+            <div class="card mb-4">
+              <a href="blog-post-1-credits.html"><img class="card-img-top" src="img/credits-photo.png" alt="Giving credit where credit is due i a very revarding habit to form. (Loretta Young)"></a>
+              <div class="card-body">
+                <h2 class="card-title">Credits</h2>
+                <p class="card-text">I strongly believe in giving credit where credit is due. So in honor of that I
+                  could not in good hart use some of the code from my project without actually providing the sources,
+                  to give them some exposure, as well as maybe help some of you find what you’re looking for.</p>
+                <a href="blog-post-1-credits.html" class="btn btn-primary">Read More &rarr;</a>
+              </div>
+              <div class="card-footer text-muted">
+                Posted on December 2, 2018 by
+                <a href="Enes-Babić.html">Enes Babić</a>
+              </div>
+            </div>
+
+            <!-- Blog Post -->
+            <div class="card mb-4">
+              <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+              <div class="card-body">
+                <h2 class="card-title">Post Title</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid
+                  atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate
+                  voluptatibus possimus, veniam magni quis!</p>
+                <a href="#" class="btn btn-primary">Read More &rarr;</a>
+              </div>
+              <div class="card-footer text-muted">
+                Posted on December 2, 2018 by
+                <a href="Enes-Babić.html">Enes Babić</a>
+              </div>
+            </div>
+
+            <!-- Blog Post -->
+            <div class="card mb-4">
+              <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+              <div class="card-body">
+                <h2 class="card-title">Post Title</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid
+                  atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate
+                  voluptatibus possimus, veniam magni quis!</p>
+                <a href="#" class="btn btn-primary">Read More &rarr;</a>
+              </div>
+              <div class="card-footer text-muted">
+                Posted on December 2, 2018 by
+                <a href="Enes-Babić.html">Enes Babić</a>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="img/news-1.png" alt="second carousel image" />
+
+          <!-- Sidebar Widgets Column -->
+          <div class="col-md-4">
+
+            <!-- Search Widget -->
+            <div class="card my-4">
+              <h5 class="card-header text-center">Search</h5>
+              <div class="card-body">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button">GO!</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Side Widget -->
+            <div class="card my-4">
+              <h5 class="card-header text-center">Author</h5>
+              <img class="card-img-top" src="img/me.png" />
+              <div class="card-body">
+                <h4 class="card-title">Enes Babić</h4>
+                <p class="card-text">Creator of this awesome webpage!</p>
+                <a href="Enes-Babić.html" class="btn btn-secondary">Read more</a>
+              </div>
+            </div>
+
           </div>
-          <div class="carousel-item">
-            <img src="img/news-2.png" alt="third carousel image" />
-          </div>
+          <!-- /.row -->
+
         </div>
+        <!-- /.container -->
+
       </div>
 
-      <!-- jumbotron -->
-      <div class="container-fluid">
-        <div class="row jumbotron">
-          <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-            <p class="lead">
-              this site is such an awesome site it just kicks ass all the other
-              sites can suck its code
-            </p>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <a href="http://www.google.com"><button type="button" class="btn btn-outline-secondary btn-lg">
-                Google
-              </button></a>
-          </div>
-        </div>
-      </div>
-
-  </div>
+  </div><!-- end of the content wraper for sticky footer -->
 
   <!-- footer -->
   <footer>
-      <div class="container postion-sticky">
-        <div class="row">
-          <div class="col-12">
-            <p class="footer-text">
-              &copy; EB Media
-              <br>
-              Created under the GPL licence
-              <br>
-              For educational purposes only!
-            </p>
-          </div>
+    <div class="container postion-sticky">
+      <div class="row">
+        <div class="col-12">
+          <p class="footer-text">
+            &copy; EB Media
+            <br>
+            Created under the GPL licence
+            <br>
+            For educational purposes only!
+          </p>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
   </main>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-
 </body>
 
 </html>

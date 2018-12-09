@@ -2,70 +2,97 @@
 
 
 
-html, body{
+html,
+body {
   height: 100vh;
   width: 100%;
   font-family: 'Poppins', 'Courier New', Courier, monospace;
   color: #222222;
+  background-color: rgb(255, 255, 255);
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
 }
 
-.content{
+.content {
   flex: 1 0 auto;
 }
 
-.nabar{
+.nabar {
   padding: .8rem;
 }
 
-.navbar-nav li{
+.navbar-nav li {
   padding-right: 20px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.2em !important;
 }
 
-.carousel-inner img{
+.carousel-inner img {
   height: auto;
   width: 100vw;
 }
 
-.carousel-caption{
+.carousel-caption {
   top: 50%;
   bottom: auto;
   transform: translateY(-50%);
 }
 
-#rounded-img{
+#rounded-img {
   height: auto;
   width: auto;
 }
 
-footer{
+footer {
   flex-shrink: 0;
-  background-color: rgb(33, 143, 112);
+  background-color: rgb(50, 50, 50);
   padding: 0em;
   margin: 0em;
   font-size: 1em;
+  color: rgb(255, 255, 255);
+  font-variant: small-caps;
 }
+
+#clock {
+  font-family: 'Share Tech Mono', monospace;
+  color: rgb(50, 50, 50);
+  text-align: center;
+}
+
+.time {
+  letter-spacing: 0.05em;
+  font-size: 5em;
+  padding: 0.4em 0 0 0;
+}
+
+.date {
+  letter-spacing: 0.1em;
+  font-size: 2em;
+  padding: 1em 0 0 0;
+  margin: 1em;
+}
+
+#calendar {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  color: #222222;
+}
+
 
 
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
+@media (max-width: 992px) {}
 
-  }
-@media (max-width: 768px) {
-  
-}
-@media (max-width: 576px) {
-  
-}
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
 
 
 /*---Firefox Bug Fix --*/
@@ -79,9 +106,5 @@ footer{
 
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
-    padding: 1rem;
+  padding: 1rem;
 }
-
-
-
-

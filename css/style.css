@@ -84,6 +84,12 @@ footer {
   color: #222222;
 }
 
+.popup-gallery img{
+  height: 10em;
+  width: 10em;
+  margin: .2em;
+}
+
 
 
 

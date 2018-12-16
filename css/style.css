@@ -89,7 +89,9 @@ footer {
   margin: .2em;
 }
 
-
+.nav-link :hover {
+  text-emphasis-color: rgb(0,0,0);
+}
 
 
 /*---Media Queries --*/

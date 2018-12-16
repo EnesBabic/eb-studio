@@ -93,6 +93,10 @@ footer {
   text-emphasis-color: rgb(0,0,0);
 }
 
+.carousel-caption :hover {
+  color: rgb(54, 51, 51);
+}
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {}
